@@ -1,0 +1,16 @@
+body {
+	display: block;
+	margin: 30px;
+}
+
+h1 {
+	display: block;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
