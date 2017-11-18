@@ -49,37 +49,37 @@ function imageMusic(word){
 	var artistSong = document.getElementById("music"); 
 
 	if(word==="beyonce"){
-		document.getElementById("artist-name").innerHTML = "Beyonce - Halo";	
+		document.getElementById("artistname").innerHTML = "Beyonce - Halo";	
 		document.getElementById("picture").src="assets/images/beyonce.jpg";
 		artistSong.setAttribute('src', "assets/audio/halo.mp3");
 	}
 	if(word==="ariana"){
-		document.getElementById("artist-name").innerHTML = "Ariana Grande- In to you";
+		document.getElementById("artistname").innerHTML = "Ariana Grande- In to you";
 		document.getElementById("picture").src="assets/images/ariana.jpeg";
 		artistSong.setAttribute('src', "assets/audio/ariana.mp3");
 	}
 	if(word==="zayn"){
-		document.getElementById("artist-name").innerHTML = "Zayn Malik - Like I would";
+		document.getElementById("artistname").innerHTML = "Zayn Malik - Like I would";
 		document.getElementById("picture").src="assets/images/zayn.jpg";
 		artistSong.setAttribute('src', "assets/audio/zayn.mp3");
 	}
 	if(word==="sia"){
-		document.getElementById("artist-name").innerHTML = "Sia - Cheap thrills";
+		document.getElementById("artistname").innerHTML = "Sia - Cheap thrills";
 		document.getElementById("picture").src="assets/images/sia.jpg";
 		artistSong.setAttribute('src', "assets/audio/sia.mp3");
 	}
 	if(word==="bruno"){
-		document.getElementById("artist-name").innerHTML = "Bruno Mars - Uptown funk";
+		document.getElementById("artistname").innerHTML = "Bruno Mars - Uptown funk";
 		document.getElementById("picture").src="assets/images/bruno.jpg";
 		artistSong.setAttribute('src', "assets/audio/bruno.mp3");
 	}
 	if(word==="adele"){
-		document.getElementById("artist-name").innerHTML = "Adele - Rolling in the Deep";
+		document.getElementById("artistname").innerHTML = "Adele - Rolling in the Deep";
 		document.getElementById("picture").src="assets/images/adele.jpg";
 		artistSong.setAttribute('src', "assets/audio/adele.mp3");
 	}
 	if(word==="rihanna"){
-		document.getElementById("artist-name").innerHTML = "Rihanna - Diamonds";
+		document.getElementById("artistname").innerHTML = "Rihanna - Diamonds";
 		document.getElementById("picture").src="assets/images/rihanna.jpg";
 		artistSong.setAttribute('src', "assets/audio/rihanna.mp3");
 	}

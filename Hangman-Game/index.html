@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 	<title>Hangman Game</title>
-	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<script type="text/javascript" src="./assets/javascript/"></script>
 </head>
+
 <body>
-	<h1>The Hangman Game</h1>
 
-	<p>Guess what letter I'm thinking of</p>
-	
-	<p>Wins: 
-		(# of times the user has guessed the letter correctly)
-	</p>
-	<p>
-	Losses: 
-	(# of times the user has failed to guess the letter correctly after exhausting all guesses)
-	</p>
+	<div class="container">
 
-	<p>
-	Guesses Left: (# of guesses left. This will update)
-	</p>
-	
-	<p>
-	Your Guesses So Far: 
-	</p>
+		<div class="row text-center">
 
-	<script type="text/javascript" src="./assets/javascript/"></script>
+			<div class="col-md-8 col-md-offset-2">
 
+				<h1 class="title">HANGMAN GAME</h1>	
+
+			</div>		
+		</div>	
+
+		<div class="row text-center" id="artistname"></div>	
+
+		<div class="row">
+			<div class="col-md-3 col-md-offset-2">			
+				<img id="picture" src="assets/images/hangman.jpg" class="img-responsive center-block">
+				<audio id= "music" autoplay="true" src="">
+			</div>
+			<div class="col-md-4 col-md-offset-1 text-center" id="score-screen">
+				<div class="score-board">
+					<p class="begin">Press a key to start game.</p>
+					<p class="hint">Hint: Name of a singer</p>
+					Wins<p id="win-count">0</p>
+					Current word<p id="current-word"></p>
+					Number of guesses remaining<p id="no-guess">12</p>
+					Letters already guessed<p id="guessed-letters"></p>
+				</div>
+			</div>			
+ 		</div>
+
+	<script src="assets/javascript/game.js"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+body{
+  background-image: url("../images/xv_@2X.png");
+  background-size: cover;
+}
+
+h1.title{
+	font-size: 72px;
+	font-family: Impact, Charcoal, sans-serif;
+	align-items: center;
+}
+
+#artistname{
+	font-family: "Brush Script MT";
+    font-size: 50px;
+	padding: 5px;
+    margin-bottom: 10px;
+}
+
+#picture, #score-screen {	
+	-moz-border-image: url("../images/rope_1.png") 29 35 round;
+	-webkit-border-image: url("../images/rope_1.png") 29 35 round;
+	-o-border-image: url("../images/rope_1.png") 29 35 round;
+	border-image: url("../images/rope_1.png") 29 35 fill round;
+	font-family: Arial Black, Gadget, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.score-board {
+	background-color: white;
+	padding: 10px;
+	border: 3px dotted #c3aa1f;
+	margin: 11px 0;	
+}
+
+.begin {
+	color: #168e90;
+    border-bottom: 3px dotted #c3aa1f;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.hint {
+	color: #da660e;
+	font-family: "Brush Script MT", cursive;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#win-count, #no-guess, #guessed-letters,#current-word {
+	color: darkorchid;
+}
+
+#guessed-letters{
+	text-transform: uppercase;
+	word-wrap: break-word;
+}
