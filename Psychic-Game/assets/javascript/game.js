@@ -33,8 +33,8 @@ document.onkeyup = function(event) {
     		guesseslist = []; 
 		} ; 
 
-		function checkIfAlreadyguess[key] {
-			if [guesseslist.indexof(key) > -1] {
+		function checkIfAlreadyguess(key) {
+			if (guesseslist.indexof(key) > -1) {
 				alert = "Already guessed" + key;
 				}
 		}
