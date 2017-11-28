@@ -28,12 +28,16 @@ document.onkeyup = function(event) {
 		} ;
 
 
-		
-
 		if ((guessesLeft===0) || (userGuess === computerChoice)) {
     		guessesLeft = 9;
     		guesseslist = []; 
 		} ; 
+
+		function checkIfAlreadyguess[key] {
+			if [guesseslist.indexof(key) > -1] {
+				alert = "Already guessed" + key;
+				}
+		}
 
 	document.getElementById("wins").innerHTML = "Wins: " + wins ;
     document.getElementById("losses").innerHTML = "Losses: " + losses ;
